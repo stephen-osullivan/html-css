@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+</head>
+<body>
+    <h1>Header Tag</h1>
+    <h3>Header 3 Tag</h3>
+    
+    br tags add a line break:
+    <br>
+    <br>
+    <br>
+
+    hr tags add a horizontal line:
+    <hr>
+    
+    <p>
+        Paragraph tag. All line spacing
+        and tabs and
+
+        new lines are ignored when rendering.
+    </p>
+   
+    <pre>
+        This is a preformatted tag. 
+        So it uses all the new lines and spacing present in the text when rendering.
+
+        However, it does mean text will go off the screen instead of wrapping around.
+    </pre>
+
+    <h3>Hyperlinks</h3>
+
+    Let's add a hyperlink. This could be a local file or a web link. 
+    The title text displays when you hover over the link.
+    <br><br>
+    <a href="https://www.google.com" title="Click this to go to Google.">
+        Link to Google
+    </a>
+    <br><br>
+    
+    <h3>Images</h3>
+    
+    Let's add an image. If we specify height, width will adjust automatically
+    <br><br>
+    <img src="images/Wolverine.webp" height = 300 alt="An image of a Wolverine.">
+
+    <h3>Lists</h3>
+    
+    Unordered Lists
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>...</li>
+    </ul>
+
+    Ordered Lists
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>...</li>
+    </ol>
+
+    <h3>Tables</h3>
+    
+    We use "border-collapse" to collapse the borders in the table, width is 75% of the screen width and
+    margin is 20px top and bottom and auto horizontal (auto centered horizontally)
+    <table border=2 style = "border-collapse: collapse; width : 75%; margin : 20px auto;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>John Doe</td>
+                <td>28</td>
+                <td>New York</td>
+            </tr>
+            <tr align="center">
+                <td>Jane Smith</td>
+                <td>34</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr align="center">
+                <td>Mike Johnson</td>
+                <td>45</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
