@@ -1,0 +1,20 @@
+/* Element selector: styles all <p> elements */
+p {
+    color: blue;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Class selector: styles elements with the "highlight" class */
+.highlight {
+    background-color: lightyellow;
+    border: 2px dashed orange;
+    padding: 10px;
+}
+
+/* ID selector: styles the element with ID "unique" */
+#unique {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
